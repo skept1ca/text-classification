@@ -12,13 +12,15 @@
 
 ```
 vkr-text-classification/
-├── data/                        # Датасеты
-│   ├── original_data.json       # Исходный корпус (1774 документа)
-│   ├── train.csv / test.csv     # После стратифицированного split 80/20
-│   ├── train_after_stage1.csv   # После LLM-генерации
-│   ├── train_after_stage2.csv   # После парафраза
-│   ├── train_after_stage3.csv   # После обратного перевода
-│   └── train_final.csv          # Финальный датасет (2278 документов)
+├── data/
+│   ├── original_data.json           # Исходный корпус (1774 документа)
+│   ├── cleaned_df.csv               # После очистки текстов
+│   ├── train.csv                    # Обучающая выборка (1404 документа)
+│   ├── test.csv                     # Тестовая выборка (351 документ)
+│   ├── train_after_stage1.csv       # После LLM-генерации (1620 документов)
+│   ├── train_after_stage2.csv       # После парафраза (2080 документов)
+│   ├── train_after_stage3.csv       # После обратного перевода (2282 документа)
+│   └── train_final.csv              # Финальный датасет (2278 документов)
 │
 ├── src/                         # Исходный код
 │   ├── augmentation/
