@@ -60,10 +60,14 @@ vkr-text-classification/
 │   ├── eda_ttr_scatter.png
 │   └── eda_umap.png
 │
-├── results/                     # Результаты экспериментов
+├── results/
+│   ├── ablation_results.png
+│   ├── augmentation_targets.png
+│   ├── calibration.png
+│   ├── comparison_orig_vs_aug.png
+│   ├── ensemble_results.png
 │   ├── ablation_results.csv
-│   ├── metrics.json
-│   └── *.png                    # Графики результатов
+│   └── experiments_results.csv
 │
 ├── requirements.txt
 └── README.md
