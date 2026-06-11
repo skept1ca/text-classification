@@ -1,0 +1,11 @@
+short_name,model_name,n_params_M,max_length,batch_size,epochs,learning_rate,dataset,train_size,balanced_accuracy,macro_f1,accuracy
+tfidf-logreg,TF-IDF + LogisticRegression,-,-,-,-,-,Оригинальный,1404,0.3957,0.4041,0.6211
+rubert-tiny2,cointegrated/rubert-tiny2,29.2,512,16,5,1e-05,Оригинальный,1404,0.0278,0.0064,0.1311
+rubert-base,DeepPavlov/rubert-base-cased,177.9,512,8,5,2e-05,Оригинальный,1404,0.2749,0.2592,0.5926
+ruroberta-large,ai-forever/ruRoberta-large,355.4,512,4,5,1e-05,Оригинальный,1404,0.2842,0.273,0.584
+rumodernbert-base,deepvk/RuModernBERT-base,149.6,512,8,5,2e-05,Оригинальный,1404,0.34,0.3467,0.6125
+tfidf-logreg,TF-IDF + LogisticRegression,-,-,-,-,-,Аугментированный,2278,0.4303,0.4413,0.641
+rubert-tiny2,cointegrated/rubert-tiny2,29.2,512,16,5,1e-05,Аугментированный,2278,0.035,0.0145,0.1624
+rubert-base,DeepPavlov/rubert-base-cased,177.9,512,8,5,2e-05,Аугментированный,2278,0.3885,0.3806,0.6154
+ruroberta-large,ai-forever/ruRoberta-large,355.4,512,4,5,1e-05,Аугментированный,2278,0.4851,0.4879,0.641
+rumodernbert-base,deepvk/RuModernBERT-base,149.6,512,8,5,2e-05,Аугментированный,2278,0.3916,0.4009,0.6325
