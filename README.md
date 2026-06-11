@@ -49,7 +49,7 @@ vkr-text-classification/
 │   ├── ablation_rubert.ipynb        # Ablation study (rubert-base)
 │   └── ensemble_calibration.ipynb   # Ансамбль + калибровка
 │
-├── EDA/
+├── eda/
 │   ├── eda.ipynb
 │   ├── eda_notebook.ipynb
 │   ├── eda_class_distribution.png
