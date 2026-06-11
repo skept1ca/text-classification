@@ -47,9 +47,16 @@ vkr-text-classification/
 │   ├── ablation_rubert.ipynb        # Ablation study (rubert-base)
 │   └── ensemble_calibration.ipynb   # Ансамбль + калибровка
 │
-├── EDA/                         # Разведочный анализ данных
+├── EDA/
 │   ├── eda.ipynb
-│   └── *.png                    # Графики EDA
+│   ├── eda_notebook.ipynb
+│   ├── eda_class_distribution.png
+│   ├── eda_hapax_ratio.png
+│   ├── eda_patterns.png
+│   ├── eda_placeholders.png
+│   ├── eda_text_lengths.png
+│   ├── eda_ttr_scatter.png
+│   └── eda_umap.png
 │
 ├── results/                     # Результаты экспериментов
 │   ├── ablation_results.csv
