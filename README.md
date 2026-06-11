@@ -37,14 +37,15 @@ vkr-text-classification/
 ├── scripts/
 │   └── run_pipeline.py          # Точка входа — запуск всего пайплайна
 │
-├── notebooks/                   # Jupyter-ноутбуки (исследование)
-│   ├── augmentation_stage1.ipynb
-│   ├── augmentation_stage2.ipynb
-│   ├── augmentation_stage3.ipynb
-│   ├── final_validation.ipynb
-│   ├── classifier_combined.ipynb
-│   ├── ablation_rubert.ipynb
-│   └── ensemble_calibration.ipynb
+├── notebooks/
+│   ├── data_preparation.ipynb       # Очистка текстов + train/test split
+│   ├── augmentation_stage1.ipynb    # LLM-генерация новых писем
+│   ├── augmentation_stage2.ipynb    # Парафраз
+│   ├── augmentation_stage3.ipynb    # Обратный перевод NLLB-200
+│   ├── final_validation.ipynb       # Финальная валидация датасета
+│   ├── classifier_combined.ipynb    # Апробация моделей BERT
+│   ├── ablation_rubert.ipynb        # Ablation study (rubert-base)
+│   └── ensemble_calibration.ipynb   # Ансамбль + калибровка
 │
 ├── EDA/                         # Разведочный анализ данных
 │   ├── eda.ipynb
