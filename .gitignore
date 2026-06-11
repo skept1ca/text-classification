@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+.env
+
+# Рабочая директория пайплайна
+pipeline_output/
+*/pipeline_output/
+
+# Логиты моделей (тяжёлые файлы)
+*.npy
+
+# Кэш back-translation
+_stage3_pairs_cache.csv
+
+# Сохранённые веса моделей
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
